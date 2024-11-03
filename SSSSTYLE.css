@@ -10,7 +10,7 @@ body {
     background-size: 1100px 1920px;
     background-attachment: scroll;
    height: 100vmin;
-
+width: 100vmin;
 }
 
 header {
