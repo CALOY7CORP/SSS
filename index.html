@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Desk Ticketing System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Help Desk Ticketing System</h1>
+        <h2>Create New Ticket</h2>
+        <form action="create_ticket.php" method="post">
+            <label for="title">Title:</label><br>
+            <input type="text" id="title" name="title" required><br>
+            <label for="description">Description:</label><br>
+            <textarea id="description" name="description" required></textarea><br>
+            <button type="submit">Create Ticket</button>
+        </form>
+        
+        <h2>Open Tickets</h2>
+        <div id="open-tickets"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

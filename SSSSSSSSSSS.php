@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+        </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SSS home</title>
+    <link rel="stylesheet" href="SSSSTYLE.css" href="SSSJS.JS">
+    <link rel="stylesheet" href="SSSSTYLE.css" href="SSSJS.JS">
+    <link rel="stylesheet" href="sssads.css" >
+    
+</head> 
+<style> 
+.zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }</style>
+
+<style> div.cservice{ position: absolute;top: 1820px;right: 1300px;  }</style>
+    <style> div.US{ position: absolute;top: 1820px;right: 1000px;  }</style>
+    <style>a{text-decoration: none;} </style>
+    <style> div.line{ position: absolute;top: 1890px;left: 300px; }</style>
+    <style> div.reserve{ position: absolute;top: 1960px;left: 420px;}</style>
+<style>
+.scroll-ads {
+  background-color: #333;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: none;
+  border: 0px solid; width:700px; height:370px;
+  position: relative;
+  top:-20px; 
+  left: 800px;
+}
+.scroll-ads img {
+  padding: 0px;
+}
+</style>
+
+<style>
+.Categories{
+  overflow: hidden;
+  white-space: nowrap;
+  padding: none;
+  border: 0px solid;
+ /* background-color: #2980b9;*/background-color: #66CDAA;
+  position:relative;
+  top:90px; 
+  left: 450px;
+}
+</style>
+
+<style>
+.buttones {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: none;
+  padding: 1px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 1px 2px;
+  cursor: pointer;
+  position: absolute;
+  top: 40px;
+  
+  
+}
+  .buton {
+  background-color: none;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+</style>  
+
+<style>.recomended{
+  border: 0px solid;
+  
+  width: 1000px;
+  height: 500px;
+  position: relative;
+  top: 110px;
+  left: 475px;
+}</style>
+
+
+
+
+
+
+
+<body style="background-color:#F0FFF0;">
+
+
+<!-- Header Section -->
+  
+<header >
+<div class="header-container" >
+<!-- Logo or Website Name -->
+<div class="logo">
+<h1>SSS</h1>
+</div>
+
+<!-- Search Bar -->
+<div class="search-bar" style=" position: sticky;">
+<form action="search.php" method="POST">
+<input type="text" name="query" placeholder="Search for products...">
+<button type="submit">Search</button>
+</form>
+</div>
+
+<!-- Navigation Buttons -->
+<div class="nav-buttons" >
+<a href="transaction.php" class="button" >Transaction</a>
+<a href="shoppingcart.php" class="button">Shopping Cart</a>
+
+<!--sidebar button-->
+<a href="#" class="button1" > <span style="font-size:10px;cursor:pointer" onclick="openNav()">&#9776;</span></a>
+</div>           
+</div>
+</header>
+
+
+<!-- Page Content -->
+<div class="content">
+<h2>Welcome to SSS!</h2>
+<p>Browse our products and enjoy seamless shopping.</p>
+</div>
+ 
+
+    <!--side bar-->
+<div class="skibidi">
+<div id="mySidenav" class="sidenav" ">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="ps/profile.jpg" ><img src="ps/profile.jpg" alt="profile" style="width:180px; border-radius: 50%;"></a><br>
+  <h1 style="color: #818181;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skibidi</h1><br>
+  <a href="loginsss.php">LogIn/SignUp</a>
+  <a href="#">Services</a>
+  <a href="#">About</a>
+  <a href="#">Contact</a>
+</div>
+<div id="main">
+</div>
+</div>
+<script src="SSSJS.JS"></script>
+    
+<!--scroll ads-->
+<table >
+<div class="scroll-ads">
+<a href="#perry" id="mark"><button class="buttones buton">dsdsdsd</button><img src="ps/mark.jpg" alt="mark with boy bawang" width="700" height="370" ></a>    
+<a href="#calo"  id="perry"><button class="buttones buton">dsdsddd</button><img src="ps/perry.jpg" alt="perry with hotdog" width="700" height="370"></a>
+<a href="#cyruz" id="calo"><button class="buttones buton">dsdsdsd</button><img src="ps/calo.jpg" alt="calo with pancit canton" width="700" height="370"></a>
+<a href="#mark" id="cyruz"><button class="buttones buton">dsdsdsd</button><img src="ps/cyruz.jpg" alt="cyruz with protein powder" width="700" height="370"></a>
+</div>
+</table>
+
+
+<a href="#"><img src="ps/magno4.jpg" alt="Cinque Terre" width="380" height="165"  style="position: absolute; top:160px; left:410px;"></a> 
+<a href="#"><img src="ps/tyrone2.jpg" alt="Cinque Terre" width="380" height="165"  style="position: absolute; top:360px; left:410px;" ></a> 
+
+
+
+
+
+<!--ads ni magno
+<div class="ad-modal" id="adModal">
+<div class="ad-content">
+<img src="ps/magno2.jpg" alt="Ad Image" class="ad-image" style="height: 700px; width:700px;"  />
+<button id="skipButton" disabled>Skip in <span id="timer">5</span>s</button>
+</div>
+</div>
+<script src="sssads.js"></script>-->
+
+
+
+<!--Categories-->
+<div   style=" width:1000px; height:50px;    position:absolute; top:550px; left:540px; ">
+  <td id="bar2" width="1021" height="0" >
+  <div id="pr" ><h2> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Categories </h2></div>
+ 
+  &nbsp;&nbsp;&nbsp;                                                
+    <button class="button button2" style="border-radius: 8px;  background-color: #2980b9; "><a href="#section1" style="text-decoration:none;font-size: 10px; color: white; ">VEGETABLES</a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="button button3" style="border-radius: 8px;  background-color: #2980b9; "><a href="#section2" style="text-decoration:none;font-size: 10px; color: white;"> FRUITS </a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="button button4" style="border-radius: 8px;  background-color: #2980b9;  "><a href="#section3" style="text-decoration:none;font-size: 10px; color: white;"> DRINKS </a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="button button6" style="border-radius: 8px;  background-color: #2980b9; " ><a href="#section4" style="text-decoration:none;font-size: 10px; color: white;">FROZEN FOODS</a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="button button8" style="border-radius: 8px;  background-color: #2980b9; "><a href="#section5" style="text-decoration:none;font-size: 10px; color: white;">CANNED</a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="button button10" style="border-radius: 8px;  background-color: #2980b9; "><a href="#section6" style="text-decoration:none;font-size: 10px; color: white;">SNACK</a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button class="button button12" style="border-radius: 8px;  background-color: #2980b9; "><a href="#section7" style="text-decoration:none;font-size: 10px; color: white;">SPICES</a></button>
+
+</td></div>
+  
+
+<div class="Categories" style=" width:1000px;height:280px;">
+<td>
+<div class="main" id="section1">
+  <h2 style="color: white;">&nbsp;&nbsp;&nbsp;&nbsp;Vegetables</h2>
+  <table style=" width:1000px; height:91px;">
+    <tr >
+        <tr><td><div class="zoom">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="text-decoration:none; color: white;"><img src="ps/ampalaya.jpg" width="100" height="100"><BR><p id="bike">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AMPALAYA</p></a></div></td>
+        <td><div class="zoom"><a href="#" style="text-decoration:none; color: white;"><img src="ps/patatas.jpg" width="100" height="100"><BR>&nbsp;&nbsp;&nbsp;PATATAS </a></div></td></tr>
+        <tr><td><div class="zoom">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="text-decoration:none; color: white;"><img src="ps/luya.jpg" width="100" height="100"><BR><p id="bike">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LUYA</p></a></div></td>
+        <td><div class="zoom"><a href="prdtalong.php" style="text-decoration:none; color: white;" ><img src="ps/talong.jpg" width="100" height="100" ><BR>&nbsp;&nbsp;&nbsp;TALONG</a></div></td></tr>
+    </tr>
+  </table>
+</div>
+<div class="main" id="section2">
+  <h2 style="color: white;">&nbsp;&nbsp;&nbsp;&nbsp;Fruits</h2>
+  <table style=" width:1000px; height:91px;">
+    <tr>
+        <tr><td><div class="zoom">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="text-decoration:none; color: white;"><img src="ps/mark.jpg" width="100" height="100"><BR>3 WHEELER VEHICLE</a></div></td>
+        <td><div class="zoom"><a href="#" style="text-decoration:none; color: white;"><img src="ps/mark.jpg" width="100" height="100"><BR>3 WHEELER VEHICLE</a></div></td></tr>
+       <tr> <td><div class="zoom">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="text-decoration:none; color: white;"><img src="ps/mark.jpg" width="100" height="100"><BR>3 WHEELER VEHICLE</a></div></td>
+        <td><div class="zoom"><a href="#" style="text-decoration:none; color: white;"><img src="ps/mark.jpg" width="100" height="100"><BR>3 WHEELER VEHICLE</a></div></td></tr>
+
+    </tr>
+  </table>
+</div>
+<div class="main" id="section3">
+    <h2 style="color: white;">&nbsp;&nbsp;&nbsp;&nbsp;Drinks</h2>
+    <table style=" width:1000px; height:91px;">
+        <tr>
+        <tr><td><div class="zoom">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="text-decoration:none; color: white;"><img src="ps/mark.jpg" width="100" height="100"><BR>&nbsp;&nbsp;&nbsp;JEEP </a></div></td>
+        <td><div class="zoom"><a href="#" style="text-decoration:none; color: white;"><img src="ps/mark.jpg" width="100" height="100"><BR>&nbsp;&nbsp;&nbsp;4x4 SUV</a></div></td></tr>
+        <tr><td><div class="zoom">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="text-decoration:none; color: white;"><img src="ps/mark.jpg" width="100" height="100"><BR>&nbsp;&nbsp;&nbsp;JEEP </a></div></td>
+        <td><div class="zoom"><a href="#" style="text-decoration:none; color: white;"><img src="ps/mark.jpg" width="100" height="100"><BR>&nbsp;&nbsp;&nbsp;4x4 SUV</a></div></td></tr>
+
+        </tr>
+      </table>
+</div>
+<div class="main" id="section4" >
+    <h2 style="color: white;">&nbsp;&nbsp;&nbsp;&nbsp;Frozen Foods</h2>
+    <table style=" width:1000px; height:91px;">
+        <tr>
+        <tr><td><div class="zoom">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="text-decoration:none; color: white;"><img src="ps/mark.jpg" width="100" height="100"><BR>&nbsp;&nbsp;&nbsp;6x6 DELIVERY TRUCK </a></div></td>
+        <td><div class="zoom"><a href="#" style="text-decoration:none; color: white;"><img src="ps/mark.jpg" width="100" height="100"><BR>&nbsp;&nbsp;&nbsp;6x6 DELIVERY TRUCK </a></div></td></tr>
+       <tr> <td><div class="zoom">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="text-decoration:none; color: white;"><img src="ps/mark.jpg" width="100" height="100"><BR>&nbsp;&nbsp;&nbsp;6x6 DELIVERY TRUCK </a></div></td>
+        <td><div class="zoom"><a href="#" style="text-decoration:none; color: white;"><img src="ps/mark.jpg" width="100" height="100"><BR>&nbsp;&nbsp;&nbsp;6x6 DELIVERY TRUCK </a></div></td></tr>
+        </tr>
+      </table>
+</div>
+<div class="main" id="section5" >
+    <h2 style="color: white;">&nbsp;&nbsp;&nbsp;&nbsp;Canned</h2>
+    <table style=" width:1000px; height:101px;">
+        <tr>
+           <tr> <td><div class="zoom">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="text-decoration:none; color: white;"><img src="ps/mark.jpg" width="100" height="100"><BR>&nbsp;&nbsp;&nbsp;10w DELIVERY TRUCK </a></div></td>
+           <td><div class="zoom"><a href="#" style="text-decoration:none; color: white;"><img src="ps/mark.jpg" width="100" height="100"><BR>&nbsp;&nbsp;&nbsp;10w DELIVERY TRUCK </a></div></td></tr>
+           <tr> <td><div class="zoom">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="text-decoration:none; color: white;"><img src="ps/mark.jpg" width="100" height="100"><BR>&nbsp;&nbsp;&nbsp;10w DELIVERY TRUCK </a></div></td>
+           <td><div class="zoom"><a href="#" style="text-decoration:none; color: white;"><img src="ps/mark.jpg" width="100" height="100"><BR>&nbsp;&nbsp;&nbsp;10w DELIVERY TRUCK </a></div></td></tr>
+        </tr>
+      </table>
+</div>
+<div class="main" id="section6" >
+    <h2 style="color: white;">&nbsp;&nbsp;&nbsp;&nbsp;Snacks</h2>
+    <table style=" width:1000px; height:91px;">
+        <tr>
+        <tr><td><div class="zoom">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="text-decoration:none; color: white;"><img src="ps/mark.jpg" width="100" height="100"><BR>&nbsp;&nbsp;&nbsp;BOY BAWANG </a>/div></td>
+        <td><div class="zoom"><a href="#" style="text-decoration:none; color: white;"><img src="ps/mark.jpg" width="100" height="100"><BR>&nbsp;&nbsp;&nbsp;6x6 DELIVERY TRUCK </a></div></td></tr>
+        <tr><td><div class="zoom">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="text-decoration:none; color: white;"><img src="ps/mark.jpg" width="100" height="100"><BR>&nbsp;&nbsp;&nbsp;10w DELIVERY TRUCK </a></div></td>
+        <td><div class="zoom"><a href="#" style="text-decoration:none; color: white;"><img src="ps/mark.jpg" width="100" height="100"><BR>&nbsp;&nbsp;&nbsp;6x6 DELIVERY TRUCK </a></div></td></tr>
+        </tr>
+      </table>
+</div>
+
+<div class="main" id="section7">
+    <h2 style="color: white;"> &nbsp;&nbsp;&nbsp;&nbsp;Spices</h2>
+    <table style=" width:1000px; height:91px;">
+        <tr>
+        <tr><td><div class="zoom">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="text-decoration:none; color: white;"><img src="ps/mark.jpg" width="100" height="100"><BR>&nbsp;&nbsp;&nbsp;12w DELIVERY TRUCK </a></li></div></td>
+        <td><div class="zoom"><a href="#" style="text-decoration:none; color: white;"><img src="ps/mark.jpg" width="100" height="100"><BR>&nbsp;&nbsp;&nbsp;6x6 DELIVERY TRUCK </a></li></div></td></tr>
+        <tr><td><div class="zoom">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style="text-decoration:none; color: white;"><img src="ps/mark.jpg" width="100" height="100"><BR>&nbsp;&nbsp;&nbsp;12w DELIVERY TRUCK </a></li></div></td>
+        <td><div class="zoom"><a href="#" style="text-decoration:none; color: white;"><img src="ps/mark.jpg" width="100" height="100"><BR>&nbsp;&nbsp;&nbsp;6x6 DELIVERY TRUCK </a></li></div></td></tr>
+        </tr>
+      </table>
+</div>
+</td>
+</div>
+
+
+<table  class="recomended" >
+
+
+  <tr>
+  <td>&nbsp;&nbsp;&nbsp;<div class="zoom" style="border:1px solid black; width: 150px; height:230px; border-color: grey;"><a href="prdtalong.php" style="text-decoration:none; color: white;"><img src="ps/talong.jpg" width="150" height="140"><BR>&nbsp;&nbsp;&nbsp;TALONG<BR><BR><BR>₱70 </a></div>&nbsp;&nbsp;&nbsp;</td>
+  <td>&nbsp;&nbsp;&nbsp;<div class="zoom" style="border:1px solid black; width: 150px; height:230px; border-color: grey;"><a href="#" style="text-decoration:none; color: white;"><img src="ps/tattoos.png" width="150" height="140"><BR>&nbsp;&nbsp;&nbsp;TATTOOS<BR><BR><BR>₱90  </a></div>&nbsp;&nbsp;&nbsp;</td>
+  <td>&nbsp;&nbsp;&nbsp;<div class="zoom" style="border:1px solid black; width: 150px; height:230px; border-color: grey;"><a href="#" style="text-decoration:none; color: white;"><img src="ps/mark.jpg" width="150" height="140"><BR>&nbsp;&nbsp;&nbsp;BOY BAWANG<BR><BR><BR>₱35  </a></div>&nbsp;&nbsp;&nbsp;</td>
+  <td>&nbsp;&nbsp;&nbsp;<div class="zoom" style="border:1px solid black; width: 150px; height:230px; border-color: grey;"><a href="#" style="text-decoration:none; color: white;"><img src="ps/piattos.jpg" width="150" height="140"><BR>&nbsp;&nbsp;&nbsp;PIATOS<BR><BR><BR>₱18 </a></div>&nbsp;&nbsp;&nbsp;</td>
+  <td>&nbsp;&nbsp;&nbsp;<div class="zoom" style="border:1px solid black; width: 150px; height:230px; border-color: grey;"><a href="#" style="text-decoration:none; color: white;"><img src="ps/patatas.jpg" width="150" height="140"><BR>&nbsp;&nbsp;&nbsp;PATATAS<BR><BR><BR>₱70  </a></div>&nbsp;&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+  <td><div class="zoom" style="border:1px solid black; width: 150px; height:230px; border-color: grey;"><a href="#" style="text-decoration:none; color: white;"><img src="ps/ampalaya.jpg" width="150" height="140"><BR>&nbsp;&nbsp;&nbsp;AMPALAYA<BR><BR><BR>₱20  </a></div>&nbsp;&nbsp;&nbsp;</td>
+  <td><div class="zoom" style="border:1px solid black; width: 150px; height:230px; border-color: grey;"><a href="#" style="text-decoration:none; color: white;"><img src="ps/okra.jpg" width="150" height="140"><BR>&nbsp;&nbsp;&nbsp;OKRA<BR><BR><BR>₱70  </a></div>&nbsp;&nbsp;&nbsp;</td>
+  <td><div class="zoom" style="border:1px solid black; width: 150px; height:230px; border-color: grey;"><a href="#" style="text-decoration:none; color: white;"><img src="ps/redhorse.jpg" width="150" height="140"><BR>&nbsp;&nbsp;&nbsp;REDHORSE<BR><BR><BR>₱70  </a></div>&nbsp;&nbsp;&nbsp;</td>
+  <td><div class="zoom" style="border:1px solid black; width: 150px; height:230px; border-color: grey;"><a href="#" style="text-decoration:none; color: white;"><img src="ps/rc.jpg" width="150" height="140"><BR>&nbsp;&nbsp;&nbsp;RC<BR><BR><BR>₱70  </a></div>&nbsp;&nbsp;&nbsp;</td>
+  <td><div class="zoom" style="border:1px solid black; width: 150px; height:230px; border-color: grey;"><a href="#" style="text-decoration:none; color: white;"><img src="ps/cocacola.jpg" width="150" height="140"><BR>&nbsp;&nbsp;&nbsp;COCA COLA... <BR><BR><BR>₱70 </a></div>&nbsp;&nbsp;&nbsp;</td>
+  </tr> 
+  <tr>
+  <td><div class="zoom" style="border:1px solid black; width: 150px; height:230px; border-color: grey;"><a href="#" style="text-decoration:none; color: white;"><img src="ps/royal.jpg" width="150" height="140"><BR>&nbsp;&nbsp;&nbsp;ROYAL<BR><BR><BR>₱25  </a></div>&nbsp;&nbsp;&nbsp;</td>
+  <td><div class="zoom" style="border:1px solid black; width: 150px; height:230px; border-color: grey;"><a href="#" style="text-decoration:none; color: white;"><img src="ps/tocino.jpg" width="150" height="140"><BR>&nbsp;&nbsp;&nbsp;FANTASTIC YO...<BR><BR><BR>₱70  </a></div>&nbsp;&nbsp;&nbsp;</td>
+  <td><div class="zoom" style="border:1px solid black; width: 150px; height:230px; border-color: grey;"><a href="#" style="text-decoration:none; color: white;"><img src="ps/emp.jpg" width="150" height="140"><BR>&nbsp;&nbsp;&nbsp;EMPILIGHTS<BR><BR><BR>₱120  </a></div>&nbsp;&nbsp;&nbsp;</td>
+  <td><div class="zoom" style="border:1px solid black; width: 150px; height:230px; border-color: grey;"><a href="#" style="text-decoration:none; color: white;"><img src="ps/meatloaf.jpg" width="150" height="140"><BR>&nbsp;&nbsp;&nbsp;MEATLOAF<BR><BR><BR>₱70  </a></div>&nbsp;&nbsp;&nbsp;</td>
+  <td><div class="zoom" style="border:1px solid black; width: 150px; height:230px; border-color: grey;"><a href="#" style="text-decoration:none; color: white;"><img src="ps/tenderjuicyhotdog.jpeg" width="150" height="140"><BR>&nbsp;&nbsp;&nbsp;TENDER JUICY ..<BR><BR><BR>₱70  </a></div>&nbsp;&nbsp;&nbsp;</td>
+  </tr>
+  
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--picture sa gilid-->
+<img src="ps/cart.png" alt="damit" style="position: absolute; height:300px; width:320px; top:300px; left:30px; transform: rotate(-20deg);">
+<img src="ps/bag na blue.png"  width="300" height="200" style="position: absolute; top: 230px; left:1580px; transform: rotate(40deg); ">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--info-->
+<div class="cservice">
+    <h3 >Customer Service</h3>
+<ul style="list-style-type: none;">
+  <li><a href="#" style="color: #696969;">Service</a></li>
+  <li><a href="#" style="color: #696969;">About Us</a></li>
+</ul>  
+</div>
+
+<div class="US">
+     <h3>Follow Us</h3>
+<ul style="list-style-type: none;">
+  <li><a href="#" style="color: #696969">Facebook</a></li>
+  <li><a href="#" style="color: #696969;">Instagram</a></li>
+</ul>  
+</div>
+
+
+<div class="line"><b style="color: #696969">
+    __________________________________________________________________________________________________________________________________________________
+</b></div>
+
+
+
+<div class="reserve">
+<P style="color: #696969">2024 CaloiCorp7. All Rights Reserved  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   
+Country and Region:Philippines 
+     </P>
+
+</div>
+
+
+
+
+</body>
+</html>
