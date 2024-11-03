@@ -9,8 +9,7 @@ body {
     background: url('bg.jpg') no-repeat center center fixed;
     background-size: 1100px 1920px;
     background-attachment: scroll;
-   height: 100dvh;
-width: 100dvw;
+
 }
 
 header {
